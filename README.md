@@ -18,13 +18,13 @@ It downloads original image and transforms it with [Sharp](https://github.com/lo
 
 You need to deploy the functions to Netlify:
 
-[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/himshim/bandwidth-hero-proxy2)
+[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/4nds/bandwidth-hero-proxy2)
 
 Then, in the **Data Compression Service** in Bandwidth Hero extension, add `https://your-netlify-domain.netlify.app/api/index`, and you are good to go.
 
 <!-- READ THIS ARTICLE LATER AdityaG
 Check out [this guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
-on how to setup Node.js on Ubuntu. 
+on how to setup Node.js on Ubuntu.
 DigitalOcean also provides an
 [easy way](https://www.digitalocean.com/products/one-click-apps/node-js/) to setup a server ready to
 host Node.js apps.
